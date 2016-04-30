@@ -2,6 +2,11 @@ body, html {
     margin-top: 15px;
 }
 
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
 
 h2.heading {
     font-family: 'Ropa Sans', sans-serif;
