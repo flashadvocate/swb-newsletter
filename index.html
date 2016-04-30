@@ -26,40 +26,86 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-xs-12">
-            <h2>Introduction</h2>
-            <hr/>
-            <p>Here you will find the latest information about the AOD Battlefront Division, as well as what's going on
-                ingame. We hope to bring you a variety of news to keep you informed and up to date with the sweet stuff
-                happening throughout the month. </p>
+    <section>
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="heading">Introduction</h2>
+                <hr/>
+                <p>Here you will find the latest information about the AOD Battlefront Division, as well as what's going
+                    on
+                    ingame. We hope to bring you a variety of news to keep you informed and up to date with the sweet
+                    stuff
+                    happening throughout the month. </p>
+            </div>
         </div>
-    </div>
+    </section>
 
-    <h2>Latest News</h2>
-    <hr/>
+    <section>
+        <h2 class="heading">Latest News</h2>
+        <hr/>
 
-    <div class="row">
+        <div class="row">
 
-        <div class="col-md-4">
-            <p>
-                Occaecat commodo aliqua delectus. Fap craft beer deserunt skateboard ea. Lomo bicycle rights adipisicing
-                anh mi, velit ea sunt next level locavore single-origin coffee in magna veniam.
-            </p>
+            <div class="col-md-4">
+                <p>
+                    Occaecat commodo aliqua delectus. Fap craft beer deserunt skateboard ea. Lomo bicycle rights
+                    adipisicing
+                    anh mi, velit ea sunt next level locavore single-origin coffee in magna veniam.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    Occaecat commodo aliqua delectus. Fap craft beer deserunt skateboard ea. Lomo bicycle rights
+                    adipisicing
+                    banh mi, velit ea sunt next level locavore single-origin coffee in magna veniam.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    Occaecat commodo aliqua delectus. Fap craft beer deserunt skateboard ea. Lomo bicycle rights
+                    adipisicing
+                    banh mi, velit ea sunt next level locavore single-origin coffee in magna veniam.
+                </p>
+            </div>
         </div>
-        <div class="col-md-4">
-            <p>
-                Occaecat commodo aliqua delectus. Fap craft beer deserunt skateboard ea. Lomo bicycle rights adipisicing
-                banh mi, velit ea sunt next level locavore single-origin coffee in magna veniam.
-            </p>
+    </section>
+
+
+    <section>
+        <h2 class="heading">Player Testimonials</h2>
+        <hr/>
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <img src="http://www.clanaod.net/forums/image.php?u=31832&dateline=1453241581&type=thumb"
+                     class="img-rounded"/> Guybrush
+            </div>
+            <div class="col-md-9">
+                <blockquote>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged.
+                </blockquote>
+            </div>
         </div>
-        <div class="col-md-4">
-            <p>
-                Occaecat commodo aliqua delectus. Fap craft beer deserunt skateboard ea. Lomo bicycle rights adipisicing
-                banh mi, velit ea sunt next level locavore single-origin coffee in magna veniam.
-            </p>
+    </section>
+
+    <section>
+        <h2 class="heading">Screenshots of the Month</h2>
+        <hr/>
+        <div class="row">
+            <div class="col-xs-3" id="screenshot-gallery" v-for="screenshot in screenshots">
+                <a href="{{ screenshot.url }}" class="thumbnail">
+                    <img src="{{ screenshot.url }}"
+                         class="img-responsive">
+                </a>
+            </div>
         </div>
-    </div>
+    </section>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.21/vue.min.js"></script>
+<script src="js/main.js"></script>
+
 </body>
 </html>

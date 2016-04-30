@@ -2,14 +2,26 @@ body, html {
     margin-top: 15px;
 }
 
+
+h2.heading {
+    font-family: 'Ropa Sans', sans-serif;
+    color: #fff;
+    margin-bottom: -20px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: rgba(0,0,0,.8);
+    padding: 15px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+
 /**
  * banner stuff
  */
-
-h1, h2 {
-    font-family: 'Ropa Sans', sans-serif;
-}
-
 
 .banner-img {
     height: 300px;
@@ -27,6 +39,7 @@ h1, h2 {
 }
 
 .banner-img h2 {
+    font-family: 'Ropa Sans', sans-serif;
     font-size: 30px;
     color: #fff;
     bottom: 60px;
