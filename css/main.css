@@ -9,7 +9,7 @@ body, html {
 }
 
 h2.heading {
-    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'brandon-grotesque', sans-serif;
     color: #fff;
     margin-bottom: -20px;
     display: inline-block;
@@ -44,7 +44,7 @@ section {
 }
 
 .banner-img h2 {
-    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'brandon-grotesque', sans-serif;
     font-size: 30px;
     color: #fff;
     bottom: 60px;
