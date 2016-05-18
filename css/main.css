@@ -31,6 +31,7 @@ section {
     width: 100%; 
     opacity: .7;
     height: 100px !important; 
+    background-position: 50%;
 }
 
 .article-img:hover {
