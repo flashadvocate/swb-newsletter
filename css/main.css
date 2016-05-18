@@ -33,6 +33,10 @@ section {
     opacity: .7; 
 }
 
+.article-img:hover {
+    opacity:1;
+}
+
 
 /**
  * banner stuff
