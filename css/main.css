@@ -29,7 +29,8 @@ section {
 
 .article-img {
     width: 100%; 
-    opacity: .7; 
+    opacity: .7;
+    height: 100px !important; 
 }
 
 .article-img:hover {
