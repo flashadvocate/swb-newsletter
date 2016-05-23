@@ -10,3 +10,13 @@ var screenshot_gallery = new Vue({
         ]
     }
 });
+
+var screenshot_gallery = new Vue({
+    el: '#screenshot-section1',
+    data: {
+        screenshots: [
+            {url: 'http://imgur.com/bE9akdI.png'},
+            
+        ]
+    }
+});
